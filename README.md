@@ -1,4 +1,4 @@
-# Lstm_Lyrics_Gen
+# Lstm Lyrics Generating
 Lyrics Generation using LSTM
 Train a neural net to generate lyrics based on the provided melody.
 
