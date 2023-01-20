@@ -1,10 +1,42 @@
-# Lstm Lyrics Generating
-Lyrics Generation using LSTM
-Train a neural net to generate lyrics based on the provided melody.
+# Lstm_Lyrics_Gen
 
-During the training of the model I used both to the lyrics of a song and its melody.
+This notebook is a demonstration of using LSTM (Long Short-Term Memory) neural networks to generate lyrics. The model is trained on a dataset of lyrics and generates new lyrics based on the patterns it has learned.
 
-The melodies are stored in .mid (MIDI files) and contain various types of information – notes, the instruments used etc. 
+## Getting Started
+
+To run the notebook, you will need to have the following installed:
+* Jupyter Notebook
+* Python 3
+* TensorFlow 2
+* Keras
+* Numpy
+* Pandas
+* Matplotlib
+
+The notebook is divided into the following sections:
+1. Data Preparation
+2. Building the LSTM Model
+3. Training the Model
+4. Generating Lyrics
+
+You can run the code by executing each cell in order.
+
+## Data
+
+The dataset used in this notebook is a collection of lyrics of songs scraped from the internet. The lyrics are preprocessed to remove special characters and lowercase all the letters.
+
+## Results
+
+The model is able to generate new lyrics that are coherent and similar to the lyrics in the training set. However, the generated lyrics are not always grammatically correct and might not make sense in certain contexts. That because the network was train to predict **using only one word at a time**.
+
+## Conclusion
+
+The LSTM_Lyrics_Gen notebook provides a glimpse into how LSTM neural networks can be used to generate creative text. Additionally, this notebook can be used as a starting point for experimenting with different architectures, hyperparameters, or datasets to improve the quality of the generated lyrics.
+
+## Acknowledgements
+
+This notebook is inspired by the work of [RomAmsili](https://github.com/RomAmsili) and the dataset used is from Ben Gurion University.
+
 
 ## The network Architecture :
 
