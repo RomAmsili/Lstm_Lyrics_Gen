@@ -7,7 +7,7 @@ This notebook is a demonstration of using LSTM (Long Short-Term Memory) neural n
 To run the notebook, you will need to have the following installed:
 * Jupyter Notebook
 * Python 3
-* TensorFlow 2
+* PyTorch
 * Keras
 * Numpy
 * Pandas
