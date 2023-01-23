@@ -23,7 +23,7 @@ You can run the code by executing each cell in order.
 
 ## Data
 
-The dataset used in this notebook is a collection of lyrics of songs scraped from the internet. The lyrics are preprocessed to remove special characters and lowercase all the letters.
+The dataset used in this notebook is a collection of lyrics of popular songs scraped from the internet. The lyrics are preprocessed to remove special characters and lowercase all the letters. In addition, MIDI files of those songs were collected in order to extact features from the melody of the songs.
 
 ## Results
 
@@ -35,7 +35,7 @@ The LSTM_Lyrics_Gen notebook provides a glimpse into how LSTM neural networks ca
 
 ## Acknowledgements
 
-This notebook is inspired by the work of [RomAmsili](https://github.com/RomAmsili) and the dataset used is from Ben Gurion University.
+This notebook is part of Deep Learning Course, from Ben Gurion University.The Data and MIDI files used is also from Ben Gurion University.
 
 
 ## The network Architecture :
